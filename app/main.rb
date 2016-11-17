@@ -2,8 +2,8 @@ def main(argv)
   argv.each do |v|
   	vc=v.to_s
   	if vc =~ /[^ -~｡-ﾟ]/
-  		printf("error\n")
-  		exit
+#  		printf("error\n")
+#  		exit
   	end
 
   	if vc =~ /[^0-9]/
