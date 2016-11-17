@@ -6,11 +6,13 @@ def main(argv)
 #  		exit
   	end
 
+  	vi=v.to_i % 3
+
   	if vc =~ /[^0-9]/
   		puts "invalid"
-  	elsif v%3 == 0 && vc.index("3") != nil
+  	elsif vi == 0 && vc.index("3") != nil
   		puts "dumb"
-  	elsif v%3 == 0
+  	elsif vi == 0
   		puts "idiot"
   	elsif vc.index("3") != nil
   		puts "stupid"
