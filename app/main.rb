@@ -7,7 +7,7 @@ def main(argv)
   	end
 
   	if vc =~ /[^0-9]/
-  		puts "invaild"
+  		puts "invalid"
   	elsif v%3 == 0 && vc.index("3") != nil
   		puts "dumb"
   	elsif v%3 == 0
